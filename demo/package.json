@@ -1,0 +1,14 @@
+{
+    "name": "asposeomrcloud-demo",
+    "version": "1.0.0",
+    "description": "Demo for NodeJS client for asposeomrcloud",
+    "repository": "aspose-omr-cloud/aspose-omr-cloud-nodejs",
+    "scripts": {
+        "demo": "node demo.js"
+    },
+    "author": "Aspose Pty Ltd",
+    "license": "MIT",
+    "dependencies": {
+        "asposestoragecloud": "^1.0.5"
+    }
+}

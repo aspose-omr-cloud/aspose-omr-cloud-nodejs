@@ -1,0 +1,29 @@
+{
+    "name": "asposeomrcloud",
+    "version": "1.0.0",
+    "description": "NodeJS client for asposeomrcloud",
+    "repository": "aspose-omr-cloud/aspose-omr-cloud-nodejs",
+    "main": "lib/asposeomrcloud/api.js",
+    "types": "lib/asposeomrcloud/api.d.ts",
+    "scripts": {
+        "clean": "shx rm -Rf *.js",
+        "build": "tsc",
+        "demo": "npm run build && pushd demo && npm install && npm run-script demo && popd"
+    },
+    "author": "Aspose Pty Ltd",
+    "bugs": {
+        "url": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs/issues"
+    },
+    "homepage": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs#readme",
+    "license": "MIT",
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "request": "^2.81.0",
+        "@types/bluebird": "*",
+        "@types/request": "*"
+    },
+    "devDependencies": {
+        "typescript": "^2.4.2",
+        "shx": "0.2.2"
+    }
+}
