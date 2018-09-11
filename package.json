@@ -1,8 +1,20 @@
 {
-    "name": "asposeomrcloud",
-    "version": "1.0.0",
-    "description": "NodeJS client for asposeomrcloud",
+    "name": "aspose-omr-cloud",
+    "version": "18.8.0",
+    "description": "Node.Js library for communicating with the Aspose.OMR Cloud API",
+    "homepage": "https://products.aspose.cloud/omr/nodejs",
     "repository": "aspose-omr-cloud/aspose-omr-cloud-nodejs",
+    "author": "Aspose Pty Ltd",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+	"engines": {
+		"node": ">=4.0"
+	},
+    "keywords": [
+        "Aspose",
+        "Cloud",
+        "OMR"
+    ],
     "main": "lib/asposeomrcloud/api.js",
     "types": "lib/asposeomrcloud/api.d.ts",
     "scripts": {
@@ -10,17 +22,15 @@
         "build": "tsc",
         "demo": "npm run build && pushd demo && npm install && npm run-script demo && popd"
     },
-    "author": "Aspose Pty Ltd",
-    "bugs": {
+	"bugs": {
         "url": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs/issues"
     },
-    "homepage": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs#readme",
-    "license": "MIT",
     "dependencies": {
-        "bluebird": "^3.5.0",
-        "request": "^2.81.0",
         "@types/bluebird": "*",
-        "@types/request": "*"
+        "@types/request": "*",
+        "asposestoragecloud": "^1.0.5",
+        "bluebird": "^3.5.0",
+        "request": "^2.81.0"
     },
     "devDependencies": {
         "typescript": "^2.4.2",
