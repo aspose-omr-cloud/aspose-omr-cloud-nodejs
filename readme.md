@@ -15,7 +15,13 @@ NodeJS v4+
 
 ## Installation
 
-You need to clone `aspose-omr-cloud` and run
+
+- Clone `aspose-omr-cloud` with submodules:
+```sh
+git clone https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs.git --recurse-submodules
+```
+
+- Run following script:
 
 ```sh
 npm install && npm run-script build
@@ -27,6 +33,16 @@ To take full advantage of Aspose.OMR for Cloud, _asposestoragecloud_ is required
 ## Usage
 ### Receive Cloud Keys
 Aspose.Cloud credentials are required to use Aspose.OMR for Cloud API. You can acquire App SID and App Key by registrating at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud). It will take only a couple of minutes.
+
+### Update Submodules
+Make sure you've cloned [aspose-omr-cloud-demo-data](aspose-omr-cloud-demo-data) submodule, that contains all data required to run demo.
+
+In case you are missing submodules use the following git commands to initialize and update them:
+
+```sh
+git submodule init
+git submodule update --remote --merge
+```
 
 ### Code example
 You can check out [OMR Demo](demo) project to get started with Aspose.OMR for Cloud.
