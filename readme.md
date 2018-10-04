@@ -35,7 +35,7 @@ To take full advantage of Aspose.OMR for Cloud, _asposestoragecloud_ is required
 Aspose.Cloud credentials are required to use Aspose.OMR for Cloud API. You can acquire App SID and App Key by registrating at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud). It will take only a couple of minutes.
 
 ### Update Submodules
-Make sure you've cloned [aspose-omr-cloud-demo-data](aspose-omr-cloud-demo-data) submodule, that contains all data required to run demo.
+Make sure you've cloned [aspose-omr-cloud-demo-data](https://github.com/aspose-omr-cloud/aspose-omr-cloud-demo-data) submodule, that contains all data required to run demo.
 
 In case you are missing submodules use the following git commands to initialize and update them:
 
