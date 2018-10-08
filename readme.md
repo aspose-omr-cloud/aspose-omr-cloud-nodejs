@@ -16,7 +16,7 @@ NodeJS v4+
 ## Installation
 
 
-- Clone `aspose-omr-cloud` with submodules:
+- Clone `aspose-omr-cloud` **with submodules**:
 ```sh
 git clone https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs.git --recurse-submodules
 ```
