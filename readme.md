@@ -2,12 +2,12 @@
 
 [Aspose.OMR for Cloud](https://products.aspose.cloud/omr) is a REST API that helps you to perform optical mark recognition in the cloud. We provide a series of [SDKs](https://github.com/aspose-omr-cloud). Along with that, you can get [binaries](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/releases) to start working immediately and recognize various OMR forms.
 
-Developers can embed [optical recognition](https://en.wikipedia.org/wiki/Optical_mark_recognition) in any type of application to extract data from images of tests, exams, questionnaires, surveys, etc. In the repository you can find examples on how to start using [Aspose.OMR API](https://docs.aspose.cloud/display/omrcloud/OMR+API+Specification) in your project.
+Developers can embed [optical recognition](https://en.wikipedia.org/wiki/Optical_mark_recognition) in any type of application to extract data from images of tests, exams, questionnaires, surveys, etc. In the repository you can find examples on how to start using [Aspose.OMR API](https://docs.aspose.cloud/omr/omr-api-specification/) in your project.
 
 
 ## Quickstart
 
-You can perform tasks out of the box without writing a single line of code with our [GUI client](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/releases). You can also refer to the [client documentation](https://docs.aspose.cloud/display/omrcloud/Aspose.OMR.Client+Application).
+You can perform tasks out of the box without writing a single line of code with our [GUI client](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dotnet/releases). You can also refer to the [client documentation](https://docs.aspose.cloud/omr/creating-omr-template-and-extracting-data/).
 
 ## Requirements.
 
